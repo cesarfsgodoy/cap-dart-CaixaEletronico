@@ -10,10 +10,10 @@ class CaixaEletronico {
   }
   
   bool saque(double valor){
-    if (valor >=_saldo) {
+    if (saldo >=valor) {
       _saldo -= valor;
       return true;
     }
-    return false;
+      return false; 
   }
 }
